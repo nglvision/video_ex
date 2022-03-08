@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jq_animate</title>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/animate.js" defer></script>
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+
+<body>
+
+    <!-- <div id="clickme">
+        Click here
+    </div>
+    <img id="book" src="./img/bg0.jpg" alt="" width="200" height="123" style="position: relative; left: 10px;">
+
+    <script>
+        $("#clickme").on('click', function () {
+            $("#book").animate({
+                width: 400,
+                opacity: '0.25',
+                left: "+=250",
+                height: "toggle"
+            }, 4000, function () {
+                // alert('콜 백  함수')
+            });
+        });
+    </script> -->
+<div class="right-menu">
+    <ul>
+        <li class="on"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<div class="left-menu">
+    <div class="gnb">
+        <ul>
+            <li><a href="#">menu1</a>
+            <ul class="sub">
+                <li><a href="#">submenu1</a></li>
+                <li><a href="#">submenu2</a></li>
+                <li><a href="#">submenu3</a></li>
+            </ul></li>
+            <li><a href="#">menu2</a>
+            <ul class="sub">
+                <li><a href="#">submenu1</a></li>
+                <li><a href="#">submenu2</a></li>
+                <li><a href="#">submenu3</a></li>
+            </ul></li>
+            <li><a href="#">menu3</a>
+            <ul class="sub">
+                <li><a href="#">submenu1</a></li>
+                <li><a href="#">submenu2</a></li>
+                <li><a href="#">submenu3</a></li>
+            </ul></li>
+            <li><a href="#">menu4</a>
+            <ul class="sub">
+                <li><a href="#">submenu1</a></li>
+                <li><a href="#">submenu2</a></li>
+                <li><a href="#">submenu3</a></li>
+            </ul></li>
+        </ul>
+    </div>
+</div>
+<div class="btn-menu">
+    <img src="./img/m0.png" alt="">
+</div>
+<div class="sections">
+    <div class="section sec1">
+        <video loop muted autoplay>
+            <source src="./video/Watermelon - 32939.mp4" type="video/mp4">
+        </video>
+        <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="section sec2">
+        <h1>section2</h1></div>
+    <div class="section sec3">section3</div>
+    <div class="section sec4">section4</div>
+    <div class="section sec5">section5</div>
+</div>
+
+
+</body>
+
+</html>

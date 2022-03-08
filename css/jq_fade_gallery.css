@@ -1,0 +1,92 @@
+@import url(./commons/reset.css);
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #f0f;
+    box-sizing: border-box;
+}
+
+.section .sec-con {
+    flex: 0 1 1200px;
+    height: 800px;
+    position: relative;
+}
+
+.section .sec-con .gallery {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+}
+
+.section .sec-con .gallery>ul {
+    width: 100%;
+    height: inherit;
+}
+
+.section .sec-con .gallery>ul>li {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+
+}
+
+.section .sec-con .center-btn {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section .sec-con .center-btn span {
+    width: 50px;
+    height: 50px;
+    background-color: #f0fa;
+    border-radius: 50%;
+    display: block;
+}
+
+.section .sec-con .center-btn span:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.section .sec-con .bcon {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.section .sec-con .bcon .items {}
+
+.section .sec-con .bcon .items>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section .sec-con .bcon .items>ul>li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.section .sec-con .bcon .items>ul>li.on {
+   background-color: #f0fa;
+
+}
+.section .sec-con .bcon .items>ul>li:hover {
+   opacity: 0.6;
+   cursor: pointer;
+}
